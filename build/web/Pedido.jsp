@@ -188,7 +188,7 @@
     <div class="contenedor">
         <form action="Pedido.jsp" method="post">
 
-            <%!
+            <%
                 Admin_Clientes AdmClie = new Admin_Clientes();
                 ArrayList<Cliente> lstClientes = new ArrayList<>();
 
