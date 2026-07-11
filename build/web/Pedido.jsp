@@ -190,12 +190,12 @@
 
             <%!
                 Admin_Clientes AdmClie = new Admin_Clientes();
-                ArrayList<Cliente> lstClientes = new ArrayList<Cliente>();
+                ArrayList<Cliente> lstClientes = new ArrayList<>();
 
                 Admin_Pedidos AdmPed = new Admin_Pedidos();
                 int nroPed = 0;
 
-                ArrayList<Detalle> DetallePed = new ArrayList<Detalle>();
+                ArrayList<Detalle> DetallePed = new ArrayList<>();
                 int R = -1;
                 Pedido Ped = new Pedido();
             %>
